@@ -12,8 +12,8 @@ long long solve(long long n, long long k) {
     // Find highest power of 2 <= n
     long long p = 1;
 
-    while (p <= n / 2) {
-        p *= 2;
+    while ((p << 1) <= n / 2) {
+        p <<= 1;
     }
 
     // Maximum is a number containing all 1s
