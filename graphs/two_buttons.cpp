@@ -7,7 +7,7 @@ class Solution{
 public:
     int solve(int n, int m){
 
-        int cnt=0;
+        // int cnt=0;
         if(n>=m){
             return n-m;
         }
